@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title> ALdev website </title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="res/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <script>
+    $(document).ready(function(){
+      $('#sum').fadeIn(2500);
+    });
+
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip({container:'body', trigger:'hover', placement:'bottom'});
+    });
+  </script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm navbar-default">
+    <a href = "index.html" class ="navbar-brand"><h3><span style="color: #CDDC39;">Adrián</span>Lorenzo</h3></a>
+  <ul class="navbar-nav">
+    <li class = "nav-item unavail" style = "text-decoration:line-through"><a href="#" class="nav-link unavail" data-toggle="tooltip" title="Soon!"><h3>Blog</h3>
+    <li class = "nav-item"><a href="resume.pdf" class="nav-link"><h3>Resume</h3></a></li>
+    <li class = "nav-item"><a href="gear.html" class="nav-link"><h3>Gear</h3></a></li>
+  </ul>
+</nav>
+
+  <div id="sum" class="summary container mx-auto">
+    <img src="res/img/ph.jpg" class="img-thumbnail ph mx-auto d-block"></img>
+    <h5 class="intro">Hey there. My name is Adrián Lorenzo Melián and I'm a Computer Engineering student at the University of Las Palmas de Gran Canaria. I love tech, computer science and music. Here you can find many things about me and some thoughts. Welcome!</h5>
+      <a href="https://github.com/AdrianLorenzoDev" data-toggle="tooltip" title="Github"><img class="glyphicon" src="res/img/github.svg"/></a>
+      <a href="https://linkedin.com/in/AdrianLorenzoMelian" data-toggle="tooltip" title="Linkedin"><img class="glyphicon" src="res/img/linkedin.svg" /></a>
+      <a href="https://instagram.com/AdrianLorenzoDev" data-toggle="tooltip" title="Instagram"><img class="glyphicon" src="res/img/instagram.svg" /></a>
+  </div>
+</body>

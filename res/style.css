@@ -1,0 +1,57 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+.navbar-brand{
+  color: #212121;
+}
+
+.navbar-brand:hover{
+  color: #212121;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li{
+  float: right;
+  padding: 10px;
+}
+
+.active{
+  color: #CDDC39 !important;
+}
+
+.nav-link{
+  color: #212121;
+}
+
+.nav-link:hover{
+  color: #CDDC39;
+}
+
+.intro {
+  padding-top: 20px;
+}
+
+.summary{
+  display: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ph{
+  width: 90%;
+  height: 90%;
+}
+
+.gear{
+  padding-top: 30px;
+}
+
+.unavail:hover{
+  color: #ff0000 !important;
+}
