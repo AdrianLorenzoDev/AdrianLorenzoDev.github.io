@@ -55,3 +55,7 @@ li{
 .unavail:hover{
   color: #ff0000 !important;
 }
+
+.navbar-toggler-icon{
+  border-color: black !important;
+}
