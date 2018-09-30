@@ -7,6 +7,10 @@ body{
   display:none;
 }
 
+.gear-title{
+  padding-bottom:30px;
+}
+
 .navbar-brand{
   color: #212121;
 }
