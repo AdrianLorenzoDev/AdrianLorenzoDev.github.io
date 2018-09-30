@@ -3,6 +3,10 @@ body{
   color: #212121;
 }
 
+.content{
+  display:none;
+}
+
 .navbar-brand{
   color: #212121;
 }
@@ -38,7 +42,6 @@ li{
 }
 
 .summary{
-  display: none;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -58,4 +61,9 @@ li{
 
 .navbar-toggler-icon{
   border-color: black !important;
+}
+
+.icon{
+  height: 100px;
+  width: 100px;
 }
