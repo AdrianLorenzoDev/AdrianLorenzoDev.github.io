@@ -35,7 +35,7 @@ li{
 
 .nav-link{
   color: #212121;
-  transition: color 2s ease;
+  transition: color 0.4s ease;
 }
 
 .nav-link:hover{
