@@ -21,11 +21,9 @@ body{
 
 ul {
   list-style-type: none;
-  overflow: hidden;
 }
 
 li{
-  float: right;
   padding: 10px;
 }
 
@@ -76,4 +74,25 @@ li{
 .footer{
   font-size: 10px;
   padding-top: 40px;
+}
+
+.zoom{
+  transition: transform .4s ease;
+}
+
+.zoom:hover{
+  transform: scale(1.15);
+}
+
+.logo{
+  color: #CDDC39;
+}
+
+.index-entry{
+  color: #adba2e;
+  text-decoration: none !important;
+}
+
+.index-entry{
+
 }

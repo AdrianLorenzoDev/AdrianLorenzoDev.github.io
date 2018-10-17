@@ -1,3 +1,7 @@
+---
+# empty
+---
+
 <!DOCTYPE html>
 <head>
   <meta charset="utf-8">
@@ -20,7 +24,7 @@
 <body>
 
 <nav class="navbar navbar-expand-sm navbar-default">
-  <a href = "index.html" class ="navbar-brand"><h3><span style="color: #CDDC39;">Adrián</span>Lorenzo</h3></a>
+  <a href = "index.html" class ="navbar-brand"><h3><span class="logo">Adrián</span>Lorenzo</h3></a>
   <button class="navbar-toggler toggler-color " type="button" data-toggle="collapse" data-target="#nav">
     <img class="glyphicon" src="res/img/box.svg">
   </button>
@@ -49,51 +53,15 @@
 
     <div class="container" style="padding: 30px;">
       <h2 class = "gear-title mx-auto text-center">Software I use!</h2>
-
       <div class = "row">
-        <div class = "col-sm-2 mx-auto d-block text-center">
-          <a href="https://atom.io" style="text-decoration: none;">
-            <img src="res/img/atom-icon.png" class="icon">
-            <h4 style = "padding-top:10px;">Atom</h4>
-          </a>
-        </div>
-
-        <div class = "col-sm-2 mx-auto d-block text-center">
-          <a href="https://www.jetbrains.com/idea/" style="text-decoration: none;">
-            <img src="res/img/intellij-icon.png" class="icon">
-            <h4 style = "padding-top:10px;">IntelliJ Idea CE</h4>
-          </a>
-        </div>
-
-        <div class = "col-sm-2 mx-auto d-block text-center">
-          <a href="https://code.visualstudio.com" style="text-decoration: none;">
-            <img src="res/img/visual-icon.png" class="icon">
-            <h4 style = "padding-top:10px;">Visual Studio Code</h4>
-          </a>
-        </div>
-
- 
-        <div class = "col-sm-2 mx-auto d-block text-center">
-          <a href="https://slack.com/" style="text-decoration: none;">
-            <img src="res/img/slack-icon.png" class="icon">
-            <h4 style = "padding-top:10px;">Slack</h4>
-          </a>
-        </div>
-
-        <div class = "col-sm-2 mx-auto d-block text-center">
-          <a href="https://git-scm.com" style="text-decoration: none;">
-            <img src="res/img/git-icon.png" class="icon">
-            <h4 style = "padding-top:10px;">Git</h4>
-          </a>
-        </div>
-
-        <div class = "col-sm-2 mx-auto d-block text-center">
-          <a href="https://www.virtualbox.org" style="text-decoration: none;">
-            <img src="res/img/virtualbox-icon.png" class="icon">
-            <h4 style = "padding-top:10px;">Oracle Virtualbox</h4>
-          </a>
-        </div>
-
+        {% for app in site.data.apps %}
+          <div class = "col-sm-2 mx-auto d-block text-center zoom">
+            <a href="{{ app.url }}" style="text-decoration: none;">
+              <img src="{{ app.image }}" class="icon">
+              <h4 style = "padding-top:10px;">{{ app.name }}</h4>
+            </a>
+          </div>
+        {% endfor %}
       </div>
 
     </div>
