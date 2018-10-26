@@ -1,5 +1,10 @@
-# AdrianLorenzoDev.github.io
+# [AdrianLorenzoDev.github.io](https://adrianlorenzodev.github.io)
 
 Personal webpage for information about me and new projects coming up
 
-Based on jekyll and liquid.
+## I have used:
+- [Jekyll](https://jekyllrb.com)
+- [Liquid](https://shopify.github.io/liquid/)
+- [Bootstrap](http://getbootstrap.com)
+- [Popper.js](https://popper.js.org)
+- [JQuery](https://jquery.com)
