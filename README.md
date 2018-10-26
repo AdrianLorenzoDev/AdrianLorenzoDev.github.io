@@ -1,4 +1,4 @@
-# [AdrianLorenzoDev.github.io](https://adrianlorenzodev.github.io)
+# [AdrianLorenzoDev.github.io](https://adrianlorenzodev.github.io) :rocket:
 
 Personal webpage for information about me and new projects coming up
 
