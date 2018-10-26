@@ -1,11 +1,15 @@
 ---
-title: Adrián Lorenzo - Index
-layout: default
+#
 ---
+
+<!doctype html>
+{% include head.html %}
+<body>
+
   <nav class="navbar navbar-expand-sm navbar-default">
     <a href = "{{site.baseurl}}/index.html" class ="navbar-brand"><h3><span style="color: #CDDC39;">Adrián</span>Lorenzo</h3></a>
     <button class="navbar-toggler toggler-color " type="button" data-toggle="collapse" data-target="#nav">
-      <img class="glyphicon" src="res/img/box.svg"></img>
+      <img class="glyphicon" src="{{site.baseurl}}/res/img/box.svg"></img>
     </button>
     <div class="collapse navbar-collapse" id="nav">
     <ul class="navbar-nav">
@@ -16,8 +20,13 @@ layout: default
     </ul>
     </div>
   </nav>
-    <div class="container mx-auto text-center">
-        {% for post in site.posts %}
-        <a class="index-entry" href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
-        {% endfor %}
-    </div>
+
+  <div class="blog">
+
+    <h1>{{ page.title }}</h1>
+    {{ content }}
+  </div>
+  
+</body>
+
+{% include footer.html %}

@@ -1,0 +1,22 @@
+---
+title:  "Hi there! This is my first try."
+date:   2018-10-26 18:24
+layout: post
+---
+
+Since the day I decided to make my personal webpage, I really wanted to share things about myself. But I did not want to be boring. I wanted to express things like a I would do if I was in front of everyone that wanted to talk to me. That is why I decided to make this blog section.
+
+This is only the first commit, but with a lot of connotations and intentions. Feel free to email me if you need help. I will attach to this blog entry my social media profiles if you want to contact me in these places too.
+
+[Github](https://github.com/AdrianLorenzoDev) -
+[Devpost](https://devpost.com/AdrianLorenzoDev) -
+[Instagram](https://www.instagram.com/adrianlorenzodev/) -
+[Twitter](https://twitter.com/0x258e) -
+[Facebook](https://www.facebook.com/adrianlorenzomelian) -
+[Linkedin](https://www.linkedin.com/in/adrianlorenzomelian/)
+
+Thank you. See you soon!
+
+PD: Here you have a cute red panda for your visual pleasure.
+
+<img src="{{site.baseurl}}/res/img/red-panda.jpg" class="ph mx-auto d-block img-thumbnail" alt="Cute red panda!">
