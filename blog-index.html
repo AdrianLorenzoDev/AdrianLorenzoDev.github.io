@@ -16,7 +16,7 @@ layout: default
     </ul>
     </div>
   </nav>
-    <div class="container mx-auto text-center">
+    <div id="content" class="container mx-auto text-center">
         {% for post in site.posts %}
         <a class="index-entry" href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
         {% endfor %}

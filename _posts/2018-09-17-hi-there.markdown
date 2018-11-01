@@ -1,6 +1,6 @@
 ---
 title:  "Hi there! This is my first try."
-date:   2018-10-26 18:24
+date:   2018-10-26 18:24:00
 layout: post
 ---
 
