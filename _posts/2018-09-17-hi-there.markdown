@@ -10,7 +10,6 @@ This is only the first commit, but with a lot of connotations and intentions. Fe
 
 [Github](https://github.com/AdrianLorenzoDev) -
 [Devpost](https://devpost.com/AdrianLorenzoDev) -
-[Instagram](https://www.instagram.com/adrianlorenzodev/) -
 [Twitter](https://twitter.com/0x258e) -
 [Facebook](https://www.facebook.com/adrianlorenzomelian) -
 [Linkedin](https://www.linkedin.com/in/adrianlorenzomelian/)
@@ -19,4 +18,4 @@ Thank you. See you soon!
 
 PD: Here you have a cute red panda for your visual pleasure.
 
-<img src="{{site.baseurl}}/res/img/red-panda.jpg" class="ph mx-auto d-block img-thumbnail" alt="Cute red panda!">
+<img src="{{site.baseurl}}/res/img/red-panda.jpg" class="ph mx-auto d-block img-thumbnail zoom" alt="Cute red panda!">

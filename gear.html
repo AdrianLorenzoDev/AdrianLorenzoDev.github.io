@@ -3,24 +3,9 @@ title: Adrián Lorenzo - Gear
 layout: default
 ---
 
-<nav class="navbar navbar-expand-sm navbar-default">
-  <a href = "index.html" class ="navbar-brand"><h3><span class="logo">Adrián</span>Lorenzo</h3></a>
-  <button class="navbar-toggler toggler-color " type="button" data-toggle="collapse" data-target="#nav">
-    <img class="glyphicon" src="res/img/box.svg">
-  </button>
-  <div class="collapse navbar-collapse" id="nav">
-  <ul class="navbar-nav">
-    <li class = "nav-item"><a href="blog-index.html" class="nav-link text-center"><h3>Blog</h3>
-    <li class = "nav-item"><a href="resume.pdf" class="nav-link text-center"><h3>Resume</h3></a></li>
-    <li class = "nav-item"><a href="gear.html" class="nav-link active text-center"><h3>Gear</h3></a></li>
-  </ul>
-  </div>
-</nav>
-
-  <div id="content" class="content">
     <div class="summary container">
         <h2 class = "gear-title mx-auto text-center">Hardware I use!</h2>
-      <img src="res/img/gear.jpg" class="ph mx-auto d-block img-thumbnail">
+      <img src="res/img/gear.jpg" class="ph mx-auto d-block img-thumbnail zoom">
       <div class="mx-auto text-center gear">
           <h4>-Macbook Air 13" early 2015</h4>
           <h4>-WD Elements 750GB external hard drive</h4>
@@ -35,7 +20,7 @@ layout: default
       <div class = "row">
         {% for app in site.data.apps %}
           <div class = "col-sm-2 mx-auto d-block text-center zoom">
-            <a href="{{ app.url }}" style="text-decoration: none;">
+            <a href="{{ app.url }}">
               <img src="{{ app.image }}" class="icon">
               <h4 style = "padding-top:10px;">{{ app.name }}</h4>
             </a>
@@ -44,5 +29,3 @@ layout: default
       </div>
 
     </div>
-
-  </div>
