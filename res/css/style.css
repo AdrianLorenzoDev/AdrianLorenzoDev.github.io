@@ -1,6 +1,7 @@
 body{
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+  color: #000000 !important;
+  background-color: #FFFFFF;
 }
 
 .content{
@@ -12,11 +13,11 @@ body{
 }
 
 .navbar-brand{
-  color: #212121;
+  color: #000000;
 }
 
 .navbar-brand:hover{
-  color: #212121;
+  color: #000000;
 }
 
 a {
@@ -32,16 +33,16 @@ li{
 }
 
 .active{
-  color: #CDDC39 !important;
+  color:  #CDDC39 !important;
 }
 
 .nav-link{
-  color: #212121;
+  color: #000000;
   transition: color 0.4s ease;
 }
 
 .nav-link:hover{
-  color: #CDDC39;
+  color:  #CDDC39;
 }
 
 .intro {
@@ -89,7 +90,7 @@ li{
 }
 
 .logo{
-  color: #CDDC39;
+  color:  #CDDC39;
 }
 
 .index-entry{
@@ -99,7 +100,7 @@ li{
 }
 
 .index-entry:hover{
-  color: #adba2e; 
+  color:  #CDDC39; 
   text-decoration: none;
 }
 
