@@ -4,22 +4,6 @@ body{
   background-color: #FFFFFF;
 }
 
-.content{
-  display:none;
-}
-
-.gear-title{
-  padding-bottom:30px;
-}
-
-.navbar-brand{
-  color: #000000;
-}
-
-.navbar-brand:hover{
-  color: #000000;
-}
-
 a {
   text-decoration: none !important;
 }
@@ -30,6 +14,20 @@ ul {
 
 li{
   padding: 10px;
+}
+
+/*
+Body
+*/
+.content{
+  display:none;
+}
+
+/*
+Text color attributes
+*/
+.highlight{
+  color: #CDDC39 !important
 }
 
 .active{
@@ -45,13 +43,25 @@ li{
   color:  #CDDC39;
 }
 
+.navbar-brand{
+  color: #000000;
+}
+
+.navbar-brand:hover{
+  color: #000000;
+}
+
+.unavail:hover{
+  color: #ff0000 !important;
+}
+
 .intro {
   padding-top: 20px;
 }
 
 .summary{
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .ph{
@@ -61,10 +71,6 @@ li{
 
 .gear{
   padding-top: 30px;
-}
-
-.unavail:hover{
-  color: #ff0000 !important;
 }
 
 .navbar-toggler-icon{
