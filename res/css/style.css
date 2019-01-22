@@ -16,12 +16,19 @@ li{
   padding: 10px;
 }
 
+
 /*
 Body
 */
-.content{
+.no-display{
   display:none;
 }
+
+.content-box{
+  padding-top: 60px;
+  padding-bottom: 10px;
+}
+
 
 /*
 Text color attributes
@@ -32,6 +39,41 @@ Text color attributes
 
 .active{
   color:  #CDDC39 !important;
+}
+
+
+/*
+Index
+*/
+.introduction {
+  padding-top: 20px;
+}
+
+.personal-photo{
+  width: 90%;
+  height: 90%;
+}
+
+
+/*
+Navbar and footer
+*/
+.logo{
+  color:  #CDDC39;
+}
+
+.navbar-toggler-icon{
+  border-color: black !important;
+}
+
+.footer{
+  font-size: 10px;
+  padding-top: 40px;
+}
+
+.nav-item{
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 
 .nav-link{
@@ -51,42 +93,10 @@ Text color attributes
   color: #000000;
 }
 
-.unavail:hover{
-  color: #ff0000 !important;
-}
 
-.intro {
-  padding-top: 20px;
-}
-
-.summary{
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.ph{
-  width: 90%;
-  height: 90%;
-}
-
-.gear{
-  padding-top: 30px;
-}
-
-.navbar-toggler-icon{
-  border-color: black !important;
-}
-
-.icon{
-  height: 100px;
-  width: 100px;
-}
-
-.footer{
-  font-size: 10px;
-  padding-top: 40px;
-}
-
+/*
+Zoom effect
+*/
 .zoom{
   transition: transform .4s ease;
 }
@@ -95,10 +105,10 @@ Text color attributes
   transform: scale(1.05);
 }
 
-.logo{
-  color:  #CDDC39;
-}
 
+/*
+Blog-index
+*/
 .index-entry{
   padding: 20px;
   color: #000000;
@@ -115,21 +125,11 @@ Text color attributes
   text-align: justify;
 }
 
+
+/*
+Resume
+*/
 .cv-entry{
-  padding-top: 60px;
-  padding-bottom: 50px;
-}
-
-.skill-entry{
-  padding-top:20px;
-  padding-bottom:20px;
-}
-
-.cv{
-  border: 1px black;
-}
-
-.hr-cv{
-	border: 0;
-  border-top: 1px double black;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
