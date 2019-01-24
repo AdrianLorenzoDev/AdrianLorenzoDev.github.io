@@ -4,16 +4,22 @@
 
 <!doctype html lang="en">
 {% include head.html %}
+
 <body>
   <nav class="navbar navbar-expand-sm navbar-default">
-    <a href = "{{site.baseurl}}/index.html" class ="navbar-brand"><h4><span class="logo">Adrián</span>Lorenzo</h4></a>
+    <a href="{{site.baseurl}}/index.html" class="navbar-brand">
+      <h4><span class="logo">Adrián</span>Lorenzo</h4>
+    </a>
     <button class="navbar-toggler toggler-color " type="button" data-toggle="collapse" data-target="#nav">
       <img class="glyphicon" src="{{site.baseurl}}/res/img/box.svg"></img>
     </button>
     <div class="collapse navbar-collapse" id="nav">
       <ul class="navbar-nav ml-auto w-100 justify-content-end">
-        <li class = "nav-item"><a href="{{site.baseurl}}/blog-index.html" class="nav-link active text-center"><h4>Blog</h4>
-        <li class = "nav-item"><a href="{{site.baseurl}}/resume.html" class="nav-link text-center"><h4>Resume</h4></a></li>
+        <li class="nav-item"><a href="{{site.baseurl}}/blog-index.html" class="nav-link active text-center">
+            <h4>Blog</h4>
+        <li class="nav-item"><a href="{{site.baseurl}}/resume.html" class="nav-link text-center">
+            <h4>Resume</h4>
+          </a></li>
       </ul>
     </div>
   </nav>
@@ -23,8 +29,8 @@
     <h1>{{ page.title }}</h1>
     <small>{{page.date | date: "%-d %B %Y"}}</small>
     <div class="blog">{{ content }}</div>
+    {% include footer.html %}
+    
   </div>
-  
-</body>
 
-{% include footer.html %}
+</body>
