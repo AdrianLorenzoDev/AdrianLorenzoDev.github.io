@@ -6,33 +6,36 @@
 {% include head.html %}
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-default">
-        <a href="{{site.baseurl}}/index.html" class="navbar-brand">
-            <h4><span class="logo">Adrián</span>Lorenzo</h4>
-        </a>
-        <button class="navbar-toggler toggler-color" type="button" data-toggle="collapse" data-target="#nav">
-            <img class="glyphicon" src="{{site.baseurl}}/res/img/box.svg"></img>
-        </button>
-        <div class="collapse navbar-collapse" id="nav">
-            <ul class="navbar-nav ml-auto w-100 justify-content-end">
-                <li class="nav-item">
-                    <a href="{{site.baseurl}}/blog-index.html" {% if page.url=="/blog-index.html" %} class="nav-link active text-center"
-                        {% else %} class="nav-link text-center" {% endif %}>
-                        <h4 style="display:inline;">Blog</h4>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="{{site.baseurl}}/resume.html" {% if page.url=="/resume.html" %} class="nav-link active text-center"
-                        {% else %} class="nav-link text-center" {% endif %}>
-                        <h4>Resume</h4>
-                    </a>
-                </li>
-            </ul>
-        </div>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-default">
+            <a href="{{site.baseurl}}/index.html" class="navbar-brand">
+                <h4><span class="logo">Adrián</span>Lorenzo</h4>
+            </a>
+            <button class="navbar-toggler toggler-color" type="button" data-toggle="collapse" data-target="#nav">
+                <img class="glyphicon" src="{{site.baseurl}}/res/img/box.svg"></img>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ml-auto w-100 justify-content-end">
+                    <li class="nav-item">
+                        <a href="{{site.baseurl}}/blog-index.html" {% if page.url=="/blog-index.html" %}
+                            class="nav-link active text-center" {% else %} class="nav-link text-center" {% endif %}>
+                            <h4 style="display:inline;">Blog</h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{site.baseurl}}/resume.html" {% if page.url=="/resume.html" %}
+                            class="nav-link active text-center" {% else %} class="nav-link text-center" {% endif %}>
+                            <h4>Resume</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    </nav>
     <div id="content" class="no-display">
         {{ content }}
         {% include footer.html %}
     </div>
+    
 </body>
