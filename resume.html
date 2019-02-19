@@ -5,51 +5,52 @@ title: Adrián Lorenzo - Resume
 description: Adrián Lorenzo Resume
 ---
 
-<div class = "content-box container mx-auto">
-    <div class="cv-entry">
-        <h5>Adrián Lorenzo Melián</h5>
-        <h7>Developer and Tech Enthusiast</h7>  
-        <p>
-            Montaña la Arena St, 27, 35128 Maspalomas, 
-            Las Palmas de Gran Canaria (Spain)
-        </p>
-    </div>
+<div class="cv-entry">
+    <h5>Adrián Lorenzo Melián</h5>
+    <h6>Developer and Tech Enthusiast</h6>
+    <p>
+        Montaña la Arena St, 27, 35128 Maspalomas,
+        Las Palmas de Gran Canaria (Spain)
+    </p>
+</div>
 
 <hr>
 
-    <div id="education" class="cv-entry">
-        <h5 class="">Education</h5>
-        {% for edu in site.data.education %}
-        <div class ="row">
-            <div class="col-sm-9">
-                <div>
-                    <h6>{{ edu.name }}</h6>
-                    <p><a href="{{ edu.school-link }}">{{ edu.school }}</a></p>
-                    <small>{{ edu.location }}</small>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <p>{{ edu.period }}</p>
+<div id="education" class="cv-entry">
+    <h5 class="">Education</h5>
+    {% for edu in site.data.education %}
+    <div class="row">
+        <div class="col-sm-9">
+            <div>
+                <h6>{{ edu.name }}</h6>
+                <p><a href="{{ edu.school-link }}">{{ edu.school }}</a></p>
+                <small>{{ edu.location }}</small>
             </div>
         </div>
-        {% endfor %}
+        <div class="col-sm-3">
+            <p>{{ edu.period }}</p>
+        </div>
     </div>
+    {% endfor %}
+</div>
 
 <hr>
-    <div class="cv-entry">
-        <h5>Skills</h5>
-        <strong>Experience in:</strong>
-        {% for skill in site.data.skills %}
-            <p>{{ skill.description }}</p>
-        {% endfor %}
-    </div>
+<div class="cv-entry">
+    <h5>Skills</h5>
+    <p><strong>Experience in:</strong></p>
+    <ul>
+    {% for skill in site.data.skills %}
+    <li>{{ skill.description }}</li>
+    {% endfor %}
+    </ul>
+</div>
 
 <hr>
 
-    <div class="cv-entry">
-        <h5>Programming languages:</h5>
-        <p>Java, C, Python, Go, C++, R, SQL and more!</p>
-    </div>
+<div class="cv-entry">
+    <h5>Programming languages:</h5>
+    <p>Java, C, Python, Go, C++, R, SQL and more!</p>
+</div>
 
 <hr>
 
@@ -60,16 +61,17 @@ description: Adrián Lorenzo Resume
 
 <hr>
 
-    <div class="cv-entry">
-        <h5>Languages:</h5>
-        <p>Spanish as mother tongue</p>
-        <p>English - First Certificate in English (FCE)</p>
-    </div>
-        
-<hr>  
-    
-    <div class="cv-entry">
-        <h5>Driver License:</h5>
-        <p>B</p>
-    </div>
+<div class="cv-entry">
+    <h5>Languages:</h5>
+    <ul>
+        <li>Spanish as mother tongue</li>
+        <li>English - First Certificate in English (FCE)</li>
+    </ul>
+</div>
+
+<hr>
+
+<div class="cv-entry">
+    <h5>Driver License:</h5>
+    <p>B</p>
 </div>

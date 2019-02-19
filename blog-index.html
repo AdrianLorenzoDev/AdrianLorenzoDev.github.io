@@ -4,10 +4,12 @@ description: Navigate into my thoughts
 keywords: blog,index,adrian,lorenzo,dev,adrianlorenzodev,hardware,software,apps,development,github
 layout: default
 ---
-    <div class="container content-box mx-auto text-center">
-        {% for post in site.posts %}
-        <div>
-            <a class="index-entry" href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
-        </div>
-        {% endfor %}
+<div class="text-center">
+    {% for post in site.posts %}
+    <div>
+        <a class="index-entry" href="{{ post.url }}">
+            <h1>{{ post.title }}</h1>
+        </a>
     </div>
+    {% endfor %}
+</div>
