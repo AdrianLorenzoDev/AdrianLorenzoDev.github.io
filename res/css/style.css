@@ -53,9 +53,9 @@ Index
     color: white;
 }
 
-@media only screen and (min-height: 768px) and (min-width: 730px) {
+@media only screen and (min-height: 768px) and (min-width: 734px) {
     #introduction, #education, #skill, #tech {
-        max-height: 75vh;
+        height: 75vh;
     }
 }
 
