@@ -1,8 +1,8 @@
-- description: Developing APIs, general purpose apps and responsive webpages
-- description: Methodologies, cicles and tools (frameworks) applied in development
-- description: Designing relational databases of information systems
-- description: Algorithms analysis and data structures
-- description: Statistics
+- description: Machine Learning models and production apps
+- description: Software Architecture
+- description: Optimization algorithms
 - description: Computational solutions
-- description: Administrating small UNIX computer systems
-- description: Version Control Systems (Git)
+- description: Data analysis
+- description: Methodologies, life cicles and tools (frameworks) applied in development
+- description: Relational Databases
+- description: Operative Systems design

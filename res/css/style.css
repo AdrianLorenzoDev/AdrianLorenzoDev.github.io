@@ -1,7 +1,6 @@
 body{
   font-family: 'Roboto', sans-serif;
-  color: #000000 !important;
-  background-color: #FFFFFF;
+  background-color: #f2f2f2 !important;
 }
 
 a {
@@ -16,51 +15,6 @@ li{
   padding: 10px;
 }
 
-
-/*
-Body
-*/
-.no-display{
-  animation: fadein 0.9s;
-  -moz-animation: fadein 0.9s;
-  -webkit-animation: fadein 0.9s;
-  -ms-animation: fadein 0.9s;
-  -o-animation: fadein 0.9s;
-}
-
-@keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-
-@-moz-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-
-@-webkit-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-
-@-ms-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-
-@-o-keyframes fadein {
-from { opacity: 0; }
-to   { opacity: 1; }
-}
-
-
-
-.content-box{
-  padding-top: 60px;
-  padding-bottom: 10px;
-}
-
-
 /*
 Text color attributes
 */
@@ -72,34 +26,49 @@ Text color attributes
   color:  #CDDC39 !important;
 }
 
+.main-color{
+    color:  #CDDC39;
+}
+
+.secondary-color {
+    color: #efb632;
+}
+
+.alt-color {
+    color: white;
+}
 
 /*
 Index
 */
 .introduction {
-  padding-top: 20px;
+    color: white;
+    background-color: #333131;
 }
 
 .personal-photo{
-  width: 90%;
-  height: 90%;
+    max-width: 100%;
+    height: auto;
 }
 
+.education {
+    background-color: #efb632;
+}
+
+.skills {
+    background-color: #d8d8d8;
+}
+
+.tech {
+    background-color: #212121;
+}
 
 /*
 Navbar and footer
 */
-.logo{
-  color:  #CDDC39;
-}
 
 .navbar-toggler-icon{
-  border-color: black !important;
-}
-
-.footer{
-  font-size: 10px;
-  padding-top: 40px;
+     border-color: black !important;
 }
 
 .nav-item{
@@ -156,11 +125,7 @@ Blog-index
   text-align: justify;
 }
 
-
-/*
-Resume
-*/
-.cv-entry{
-  padding-top: 20px;
-  padding-bottom: 20px;
+.devicon {
+    font-size: 7rem;
+    color: white;
 }

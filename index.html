@@ -6,24 +6,104 @@ layout: default
 ---
 
 <!--Summary-->
-
-<div class="row">
-  <div class="col-md-8">
-    <img src="res/img/ph.jpg" class="img-thumbnail personal-photo zoom" alt="Personal photo"></img>
-  </div>
-  <div class="col-md-4">
-    <h5 class="introduction">Hey there. My name is Adrián Lorenzo Melián and I'm a Computer Engineering student at the
-      University of Las Palmas de Gran Canaria. I love tech, computer science and music. Here you can find many things
-      about me and some thoughts. Welcome!</h5>
-    <!--icons-->
-    <div class="text-right">
-      <a href="https://github.com/AdrianLorenzoDev"><img class="glyphicon" src="res/img/github.svg" alt="Github" ></a>
-      <a href="https://linkedin.com/in/AdrianLorenzoMelian"><img class="glyphicon" src="res/img/linkedin.svg"
-          alt="Linkedin"></a>
-      <a href="https://twitter.com/0x258e"><img class="glyphicon" src="res/img/twitter.svg"
-          alt="Twitter" /></a>
-      <a href="mailto:adrianlorenzomelian@gmail.com"><img class="glyphicon" src="res/img/mail.svg"
-          alt="Mail"></a>
+<script>
+  AOS.init();
+</script>
+<div id="header" class="h-100 d-flex justify-content-center">
+    <div class="align-self-center mx-auto text-center">
+        <img src="res/img/ph.jpg" class="img-thumbnail img-fluid"
+            alt="Personal photo">
+        <h1 class="my-3"><span class="main-color">Adrián</span> Lorenzo</h1>
+        <h4 class="mb-3">Machine Learning, Computation and Software Engineering</h4>
+        <!--icons-->
+        <div>
+            <a href="https://github.com/AdrianLorenzoDev">
+                <img class="glyphicon" src="res/img/github.svg" alt="Github">
+            </a>
+            <a href="https://linkedin.com/in/AdrianLorenzoMelian">
+                <img class="glyphicon" src="res/img/linkedin.svg" alt="Linkedin">
+            </a>
+            <a href="https://twitter.com/0x258e">
+                <img class="glyphicon" src="res/img/twitter.svg" alt="Twitter">
+            </a>
+            <a href="mailto:adrianlorenzomelian@gmail.com">
+                <img class="glyphicon" src="res/img/mail.svg" alt="Mail">
+            </a>
+        </div>
     </div>
-  </div>
+</div>
+
+<div id="introduction" class="introduction d-flex justify-content-center p-5 h-75">
+    <div class="align-self-center p-5" data-aos="fade-up" data-aos-duration="700">
+        <h2 class="main-color">Who am I?</h2>
+        <div class="my-5">
+            <p class="my-3 h5">
+                Hey there! My name is Adrián Lorenzo Melián and I'm a Computer Engineering
+                student at the University of Las Palmas de Gran Canaria.
+            </p>
+            <p class="my-3 h5">
+                I am involved and interested in Machine Learning/Deep Learning projects and
+                knowledge. Traditional Algorithms, Convultional Networks, Genetic Algorithms,
+                new Deep Learning techniques.
+            </p>
+            <p class="my-3 h5">
+                I love tech, computer science and music. Here you can find many things
+                about me and some thoughts.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="education" class="d-flex justify-content-center education p-5 h-75">
+    <div class="align-self-center" data-aos="fade-up" data-aos-duration="700">
+        <h2 class="mb-5">Education</h5>
+        {% for edu in site.data.education %}
+            <div class="row">
+                <div class="col-sm-9">
+                    <div>
+                        <p class="h4">{{ edu.name }}</p>
+                        <p class="h5"><a href="{{ edu.school-link }}">{{ edu.school }}</a></p>
+                        <p>{{ edu.location }}</p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <p class="h6">{{ edu.period }}</p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+<div class="d-flex justify-content-center skills p-5 h-75">
+    <div class="align-self-center p-5" data-aos="fade-up" data-aos-duration="700">
+        <h2 class="secondary-color">Skills</h2>
+        <p class="h4">Experience in:</strong></h4>
+        <div class="row my-5">
+        {% for skill in site.data.skills %}
+        <div class="col-sm-3 my-4" data-aos="fade-up" data-aos-duration="1000">
+            <p class="h5">{{ skill.description }}</p>
+        </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="tech d-flex justify-content-center p-5 h-75">
+    <div class="align-self-center p-5" data-aos="fade-up" data-aos-duration="700">
+        <h2 class="alt-color">Programming languages and technologies</h2>
+        <div class="row my-5">
+        {% for tech in site.data.techs %}
+            <div class="col-sm-3 my-4">
+                <i class="{{ tech.tech }} devicon" data-aos="fade-up" data-aos-duration="1000"></i>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+
+<div class="d-flex justify-content-center p-5 h-100">
+    <div class="align-self-center p-5" data-aos="fade-up" data-aos-duration="700">
+        <h2>Contact me!</h2>
+        <p class="h4"><a href="mailto:adrianlorenzomelian@gmail.com">adrianlorenzomelian@gmail.com</a></p>
+    </div>
 </div>
