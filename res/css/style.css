@@ -1,19 +1,18 @@
-body{
-  font-family: 'Roboto', sans-serif;
-  background-color: #f2f2f2 !important;
-  width: auto;
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2f2f2 !important;
+    width: auto;
 }
 
 a {
-  text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 /*
 Text color attributes
 */
-
-.main-color{
-    color:  #CDDC39;
+.main-color {
+    color: #CDDC39;
 }
 
 .secondary-color {
@@ -32,7 +31,7 @@ Index
     background-color: #333131;
 }
 
-.personal-photo{
+.personal-photo {
     max-width: 100%;
     height: auto;
 }
@@ -54,9 +53,9 @@ Index
     color: white;
 }
 
-@media only screen and (min-height: 768px) {
+@media only screen and (min-height: 768px) and (min-width: 730px) {
     #introduction, #education, #skill, #tech {
-        height: 75vh;
+        max-height: 75vh;
     }
 }
 
