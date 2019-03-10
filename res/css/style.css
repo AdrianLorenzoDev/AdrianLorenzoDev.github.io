@@ -52,3 +52,9 @@ Index
     font-size: 7rem;
     color: white;
 }
+
+@media only screen and (min-height: 768px) {
+    #introduction, #education, #skill, #tech {
+        height: 75vh;
+    }
+}
