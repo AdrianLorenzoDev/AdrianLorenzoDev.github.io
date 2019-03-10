@@ -7,24 +7,9 @@ a {
   text-decoration: none !important;
 }
 
-ul {
-  list-style-type: none;
-}
-
-li{
-  padding: 10px;
-}
-
 /*
 Text color attributes
 */
-.highlight{
-  color: #CDDC39 !important
-}
-
-.active{
-  color:  #CDDC39 !important;
-}
 
 .main-color{
     color:  #CDDC39;
@@ -61,68 +46,6 @@ Index
 
 .tech {
     background-color: #212121;
-}
-
-/*
-Navbar and footer
-*/
-
-.navbar-toggler-icon{
-     border-color: black !important;
-}
-
-.nav-item{
-  padding-bottom: 0px;
-  padding-top: 0px;
-}
-
-.nav-link{
-  color: #000000;
-  transition: color 0.4s ease;
-}
-
-.nav-link:hover{
-  color:  #CDDC39;
-}
-
-.navbar-brand{
-  color: #000000;
-}
-
-.navbar-brand:hover{
-  color: #000000;
-}
-
-
-/*
-Zoom effect
-*/
-.zoom{
-  transition: transform .4s ease;
-}
-
-.zoom:hover{
-  transform: scale(1.05);
-}
-
-
-/*
-Blog-index
-*/
-.index-entry{
-  padding: 20px;
-  color: #000000;
-  transition: color .4s ease;
-}
-
-.index-entry:hover{
-  color:  #CDDC39;
-  text-decoration: none;
-}
-
-.blog{
-  padding-top: 10px;
-  text-align: justify;
 }
 
 .devicon {
