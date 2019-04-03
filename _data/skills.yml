@@ -1,8 +1,8 @@
-- description: Machine Learning models and production apps
+- description: Deep Learning models and production apps
 - description: Software Architecture
 - description: Optimization algorithms
+- description: Data manipulation, analysis and visualization
 - description: Computational solutions
-- description: Data analysis
+- description: Microservices, virtualization and containerization
 - description: Methodologies, life cicles and tools (frameworks) applied in development
 - description: Relational Databases
-- description: Operative Systems design
