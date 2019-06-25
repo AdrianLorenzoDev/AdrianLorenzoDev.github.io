@@ -1,8 +1,8 @@
-- description: Deep Learning models and production apps
-- description: Software Architecture
-- description: Optimization algorithms
-- description: Data manipulation, analysis and visualization
-- description: Computational solutions
-- description: Microservices, virtualization and containerization
-- description: Methodologies, life cicles and tools (frameworks) applied in development
-- description: Relational Databases
+- description: "Deep Learning: research and production"
+- description: "Software Architecture"
+- description: "Discrete optimization"
+- description: "Data manipulation, analysis and visualization"
+- description: "Multiplatform and cloud-based software"
+- description: "Microservices, virtualization and containerization"
+- description: "Methodologies, life cicles and tools (frameworks) applied in development"
+- description: "Relational/Non-relational databases design"
