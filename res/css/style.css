@@ -23,12 +23,21 @@ Text color attributes
     color: white;
 }
 
+.dark-color {
+    color: black;
+}
+
 /*
 Index
 */
 .introduction {
     color: white;
     background-color: #333131;
+}
+
+.interests {
+    color: black;
+    background-color: #ff8a80;
 }
 
 .personal-photo {
@@ -41,7 +50,7 @@ Index
 }
 
 .skills {
-    background-color: #d8d8d8;
+    background-color: #69f0ae;
 }
 
 .tech {

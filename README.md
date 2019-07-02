@@ -9,3 +9,4 @@ Personal webpage for information about me and new projects coming up
 - [Bootstrap](http://getbootstrap.com)
 - [Popper.js](https://popper.js.org)
 - [JQuery](https://jquery.com)
+- [AOS - Animated on Scroll Library](https://michalsnik.github.io/aos/)  
